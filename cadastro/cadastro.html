@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cadastro_style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header class="header header_cadastro">
+      <figure><img src="#" alt="Logo" /></figure>
+      <nav>
+        <ul class="nav">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Entrar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form class="formulario_cadastro">
+        <!--Dados pessoais-->
+        <label for="nome">Nome </label>
+         <input type="text" name="nome" id="nome" required />
+        <label for="email">Email </label>
+          <input type="email" name="email" id="email" required />
+        <label for="senha">Senha </label>
+          <input type="password" name="senha" id="senha" required/>
+        <label for="confirmar_senha">Confirme a senha </label>
+          <input type="password" name="confirme_senha" id="confirme_senha" required/>
+        <label for="rg">RG </label>
+          <input type="number" name="rg" id="rg" required/>
+
+        <!--Endereço-->
+        <label for="cep">CEP </label>
+          <input type="text" name="cep" id="cep" maxlength="9" required/>
+        <label for="uf">UF  </label>
+          <input type="text" name="uf" id="uf">
+        <label for="localidade">Cidade </label>
+          <input type="text" name="localidade" id="localidade" />
+        <label for="bairro">Bairro </label>
+          <input type="text" name="bairro" id="bairro" />
+        <label for="logradouro">Rua </label>
+          <input type="text" name="logradouro" id="logradouro" />
+        <label for="numero">Nº </label>
+          <input type="number" name="numero" id="numero" />
+        <label for="complemento">Complemento </label>
+          <input type="text" name="complemento" id="complemento" />
+
+        <!--Botão enviar-->
+        <button type="submit"class="botao_cadastro">Enviar</button>
+      </form>
+    </main>
+
+    <footer class="footer_cadastro"> <p>Resilia-flix &copy</p></footer>
+  </body>
+  <script src="cadastro.js"></script>
+</html>
