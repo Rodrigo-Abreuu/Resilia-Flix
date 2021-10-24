@@ -5,7 +5,8 @@
 }
 
 body{
-  background-color: lightyellow;
+  background: #0073cd/*linear-gradient(0deg, #0c8888, #0ca5a5)*/;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header_cadastro {
@@ -13,11 +14,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.781) 100%
-  );
+  background: #f2f2f2;
+  box-shadow: 0 1px 2px 1px lightblue;
 }
 
 .header_cadastro img {
@@ -35,11 +33,11 @@ body{
 
 .header_cadastro li a {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #0073cd;
 }
 
 .header_cadastro li a:hover{
-  color: #0073cd;
+  color: #00d1da;
 }
 
 main {
@@ -47,14 +45,26 @@ main {
   padding: 2rem;
 }
 
+main h1 {
+  color: #f2f2f2;
+  text-align: center;
+  margin: .5rem auto .5rem auto;
+}
+
 .formulario_cadastro {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  max-width: 30rem;
+  max-width: 28.5rem;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.637);
-  border-radius: 0.5rem;
+  /*background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 0.5rem;*/
+  background: rgba( 0, 209, 218, 0.30 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .formulario_cadastro label{
@@ -77,12 +87,61 @@ main {
 }
 
 .formulario_cadastro input:focus {
-  outline: 2px solid #0073cd;
+  outline: 3px solid #0073cd;
+}
+
+.cadastro_senha,
+.cadastro_cep_uf,
+.cadastro_rua_numero{
+  display: flex;
+  margin: .9rem auto .3rem 0;
+}
+
+.cadastro_senha span input,
+.cadastro_cep_uf input,
+.cadastro_rua_numero input{
+  margin-top: .3rem;
+  border: none;
+  border-radius: .2rem;
+  padding: .4rem;
+  color: #999;
+  background-color: whitesmoke;
+  font-size: .9rem;
+}
+
+.cadastro_senha span input{
+  max-width: 11rem;
+}
+
+.cadastro_senha span:nth-child(1),
+.cadastro_rua_numero span:nth-child(1) {
+  margin-right: 1.5rem;
+}
+
+.cadastro_cep_uf span:nth-child(1),
+.cadastro_cep_uf span:nth-child(2){
+ margin-right: 1rem;
+}
+
+.cadastro_cep_uf span:nth-child(2) input{
+  max-width: 2rem;
+}
+
+.cadastro_cep_uf span:nth-child(3) input{
+  max-width: 10rem;
+}
+
+.cadastro_rua_numero span:nth-child(1) input{
+  width: 20.5rem;
+}
+
+.cadastro_rua_numero span:nth-child(2) input{
+  max-width: 5rem;
 }
 
 .botao_cadastro{
-  margin: 1rem auto .1rem auto;
-  width: 29rem;
+  margin: 1.2rem auto .3rem auto;
+  width: 27.5rem;
   padding: .5rem;
   border-radius: .2rem;
   font-size: 1rem;
@@ -97,12 +156,9 @@ main {
 }
 
 .footer_cadastro{
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.781) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  color: #f2f2f2;
+  background: #f2f2f2;
+  box-shadow: 0 -1px 2px 1px lightblue;
+  color: #0073cd;
   padding: .7rem;
   text-align: center;
 }
