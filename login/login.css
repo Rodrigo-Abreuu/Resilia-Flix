@@ -10,7 +10,6 @@ header .logo{
     font-size: 40px;
 }
 
-
 .img-bg {
     background-image: url(./img/filmes.jpg);
     
@@ -19,10 +18,6 @@ header .logo{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-    
-
 }
 .bg-box {
     background: hsl(0deg 10% 6% / 35%);
