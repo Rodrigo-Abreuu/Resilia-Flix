@@ -1,0 +1,54 @@
+
+*{
+    font-family: sans-serif;
+      padding: 0;
+      margin: 0;
+}
+
+h3{
+    color: black;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#emailEnviado{
+  color: gray;
+  font-size: 0.75em;
+}
+
+#labelEmail{
+  color: rgba(29, 9, 9, 0.521);
+}
+
+#mensagemErro{
+  color: darkred;
+  font-style: italic;
+  font-size: 0.75em ;
+}
+
+.form-submit-button {
+  background: green;
+  color: white;
+  height: 45px;
+  border-style: outset;
+  border-color: whitesmoke;
+  font: bold 15px arial, sans-serif;
+  text-shadow:none;
+
+}
+
+.caixaRecuperaAcesso {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 30rem;
+  margin: auto;
+  background-color: lightgray;
+  border-radius: 0.5rem;
+}
+
