@@ -39,6 +39,7 @@ form{
   border-color: whitesmoke;
   font: bold 15px arial, sans-serif;
   text-shadow:none;
+  border-radius: 0.5rem;
 
 }
 
