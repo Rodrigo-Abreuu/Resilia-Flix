@@ -1,0 +1,83 @@
+:root{
+    /*Para utilizar variaves no site*/
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+header .logo{
+    margin-left: 5px;
+    color:var(--preto);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+}
+
+.img-bg {
+    background-image: url(./img/filmes.jpg);
+    
+    min-height: 995px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-box {
+    background: hsl(0deg 10% 6% / 35%);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    width: 200px;
+    height: 550px;
+    
+}
+
+.pd-login{
+    padding-top: 35px;
+    color: white;
+}
+
+.pd-laterais{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.lg{
+    width: 90px !important;
+}
+
+.mr{
+    margin: 27px 0px 0px 0px;
+}
+.mr-btn{
+    margin: 0px 23px 0px 33px;
+}
+
+.btn{
+    margin-right: 10px;
+}
+.text{
+    color: white;
+}
+input{
+    height:16px;
+    width: 16px;
+}
+input :checked{
+    height:10px ;
+    width: 10px;
+}
+.mrCheckbox{
+    margin: 7px 0px 0px 4px;
+}
+.textSize{
+    font-size: 13px;
+}
+.mrLabelBox{
+    margin: 0px 90px 0px 0px;
+}
+.mrLabelBox1{
+    margin: 0px 0px 0px 80px;
+}
+
+
+
+
+

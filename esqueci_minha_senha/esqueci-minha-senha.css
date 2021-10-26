@@ -1,0 +1,67 @@
+
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+body{
+    background-image: url(./img/recupera-senha-fundo.jpg);
+}
+
+nav{
+    filter: blur(2px);
+}
+
+#emailEnviado{
+    color: white;
+    font-size: 0.75em;
+}
+
+#labelEmail{
+    color: whitesmoke;
+    font-style: bold;
+}
+
+#mensagemErro{
+    text-align: center;
+    color: red;
+    background:rgba(0, 0, 0, 0.425);
+    border-radius: 00.5rem;
+    font-style: italic;
+    font-size: 0.75em ;
+}
+
+.form-submit-button {
+    background: rgba(100, 32, 32, 0.815);
+    color: white;
+    height: 45px;
+    border-style: outset;
+    border-color: rgba(245, 245, 245, 0.664);
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+    border-radius: 0.5rem;
+
+}
+
+.caixaRecuperaAcesso {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    max-width: 30rem;
+    margin: auto;
+    background-color: rgba(117, 111, 111, 0.541);
+    border-radius: 0.5rem;
+}
+
