@@ -1,11 +1,11 @@
 
 *{
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
 }
 
-h3{
+h1{
     color: whitesmoke;
 }
 
@@ -17,12 +17,9 @@ form{
 }
 
 body{
-    background-image: url(./img/recupera-senha-fundo.jpg);
+    background-image: url(../static/imagens/fundo.jpg);
 }
 
-nav{
-    filter: blur(2px);
-}
 
 #emailEnviado{
     color: white;
@@ -65,3 +62,6 @@ nav{
     border-radius: 0.5rem;
 }
 
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+}
