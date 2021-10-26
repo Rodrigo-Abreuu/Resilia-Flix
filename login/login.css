@@ -3,18 +3,22 @@
     --vermelho: #E50914;
     --preta: #141414;
 }
+/* *{
+    font-family: 'Bebas Neue';
+} */
 header .logo{
     margin-left: 5px;
     color:var(--preto);
     font-family: 'Arial Black',Times;
     font-size: 40px;
 }
+
 .im-logo{
     height: 48px;
     width: 48px;
 }
 .img-bg {
-    background-image: url(../static/imagens/filmes.jpg);
+    background-image: url(../static/imagens/Resiliaflix.png);
     
     min-height: 995px;
 
@@ -88,15 +92,7 @@ input :checked{
   }
 
   /*Arrumar navbar - deixar ela transparente */
-.navbar{
-    background: hsl(0deg 10% 6% / 35%);
-    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-     filter: blur(1px);
-    backdrop-filter: blur(72px);
-    
-}
+
 
 
 
