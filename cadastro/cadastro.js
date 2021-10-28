@@ -9,6 +9,8 @@ const showData = (result)=>{
 }
 
 
+$("#cep").mask("#####-###");
+$("#rg").mask("#######-#");
 
 
 cep.addEventListener("focusout",(e)=>{
