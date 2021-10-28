@@ -41,7 +41,7 @@ body{
 }
 
 .form-submit-button {
-    background: rgba(100, 32, 32, 0.815);
+    background: rgba(0, 200, 214, 0.815);
     color: white;
     height: 45px;
     border-style: outset;
@@ -58,10 +58,17 @@ body{
     padding: 2rem;
     max-width: 30rem;
     margin: auto;
-    background-color: rgba(117, 111, 111, 0.541);
+    background-color: rgba(0, 0, 0, 0.801);
     border-radius: 0.5rem;
 }
 
 .navbar-brand{
     font-family: 'Bebas Neue', cursive;
+}
+
+.footer_esqueci_minha_senha{
+
+  color: #ffffff;
+  padding: .7rem;
+  text-align: center;
 }
