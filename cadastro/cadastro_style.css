@@ -117,7 +117,7 @@ main h1 {
 }
 
 .cadastro_rua_numero span:nth-child(1) input{
-  max-width: 20.5rem;
+  width: 20.5rem;
 }
 
 .cadastro_rua_numero span:nth-child(2) input{
@@ -156,6 +156,10 @@ html{
 
 .formulario_cadastro{
   max-width: 95%;
+}
+
+.cadastro_rua_numero span:nth-child(1) input{
+  max-width: 15.5rem;
 }
 
 footer{
