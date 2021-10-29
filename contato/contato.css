@@ -1,0 +1,16 @@
+img{
+    width: 200px;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+#resiliaflix_logo{
+    max-height: auto;
+    max-width: 2rem;
+}
+

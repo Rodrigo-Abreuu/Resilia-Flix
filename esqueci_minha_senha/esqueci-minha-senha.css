@@ -6,6 +6,7 @@
 }
 
 h1{
+    font-family: Bebas neue;
     color: whitesmoke;
 }
 
@@ -40,8 +41,13 @@ body{
     font-size: 0.75em ;
 }
 
+#resiliaflix_logo{
+    max-height: auto;
+    max-width: 2rem;
+}
+
 .form-submit-button {
-    background: rgba(0, 200, 214, 0.815);
+    background: #0dcaf0;
     color: white;
     height: 45px;
     border-style: outset;
@@ -55,11 +61,12 @@ body{
 .caixaRecuperaAcesso {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 2.5rem;
     max-width: 30rem;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.801);
     border-radius: 0.5rem;
+    border: 1px solid rgba(75, 75, 75, 0.534);
 }
 
 .navbar-brand{
