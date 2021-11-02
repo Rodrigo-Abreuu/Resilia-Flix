@@ -1,51 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html >
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="../static/imagens/logo.jpeg" type="image/x-icon">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/52adec9b83.js" crossorigin="anonymous"></script>
-    
-    <title>Resilia Flix</title>
+    <script src="../static/javascripts/vendors/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+	        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+            crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+	        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
+            crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../static/stylesheets/layout.css">
+
+    <title>Resilia Flix</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">RESILIA FLIX</a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Início </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-film"></i> Filmes </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-video"></i> Séries </a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input type="text" name="search" id="search" placeholder="Buscar filmes, séries..." required>
-              <button type="submit"><i class="fas fa-search"></i></button>
-            </form>
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">RESILIA FLIX</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" 
+                                href="https://rodrigo-abreuu.github.io/Resilia-Flix/info-filme">Filmes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contatos</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="navbar-brand btn btn-info" href="#">Login</a>
+                    <a class="navbar-brand btn btn-info" href="#">Cadastro</a>
+                </div>
+            </div>
         </div>
-      </nav>
-      <ul>
-        <li>Velozes e Furiosos</li>
-        <li>Harry Potter</li>
-        <li>A menina que roubava livros</li>
-      </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="text-info titulo">
+            <h1>Filmes, Séries e Animes</h1>
+        </div>
+        
+
+        <button id="tras" type="button" class="btn btn-info btn-foto" style="right: -5%;" onclick="scrollEsquerda()">
+            <b><</b>
+        </button>
+        <button id="frente" type="button" class="btn btn-info btn-foto" style="right: -90%;" onclick="scrollDireita()">
+            <b>></b>
+        </button>
+
+        <div id="fotos">
+            <ul>
+                <li><img src="../static/imagens/Filmes/aCabana.jpg" alt="A cabana" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/starWarsRogueOne.jpg" alt="Star wars rogue one" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/itsOkayToNotBeOkay.jpg" alt="It's okay to not be okay" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/panteraNegra.jpg" alt="Pantera negra" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/demonSlayer.png" alt="Demon slayer" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/round6.jpg" alt="Round 6" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/maquinasMortais.jpg" alt="Maquinas mortais" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/umLugarSilencioso.jpg" alt="Um lugar silencioso" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/birdBox.jpg" alt="Bird box" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/it.jpg" alt="It: a coisa" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/aMaldicaoDaResidenciaHill.jpg" alt="A maldição da residência hill" width="225px" height="375px"></li>
+                <li><img src="../static/imagens/Filmes/dark.jpg" alt="Dark" width="225px" height="375px"></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="text-lg-center text-info"><b>Resilia-flix &copy</b></footer>
+    
+    <script src="scroll.js"></script>
 </body>
 </html>
