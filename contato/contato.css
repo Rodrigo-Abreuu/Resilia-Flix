@@ -134,8 +134,5 @@ h3{
 }
 
 #div-footer{
-    flex-direction: row-reverse;
-    align-items: end;
-    justify-content: center;
     margin-top: 80px;
 }
