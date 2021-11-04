@@ -2,6 +2,7 @@
     font-family: 'Bebas Neue';
     font-size: 175%;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -10,7 +11,15 @@ header {
 }
 
 body{
-    background-image: url(../static/imagens/fundo.jpg);
+    background: rgb(111, 212, 243);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    position: relative;
+}
+
+.pagina{
+    background: whitesmoke;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -43,22 +52,38 @@ form button {
     margin-left: 3px;
 }
 
-
 form button:hover {
     background-color: white;
     color: #0dcaf0;
 }
 
-#copy-area {
-    background-color: #0dcaf0;
-}
-
-#copy-area .container {
-    padding: 10px 0;
+.thumbnail {
+    height: 360px;
     text-align: center;
-
+    margin-top: 40px;
+    border: 3px solid rgba(46, 45, 51, 0.363);
 }
 
-#copy-area .container p{
-    margin-bottom: 0;
+.thumbnail{
+    background: rgb(180, 231, 247);
+    border-radius: 1em;
 }
+
+.thumbnail img {
+    height: 230px;
+    margin-top: 10px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    border-bottom: 0;
+}
+
+.pagina {
+    text-align: center;
+    justify-content: center;
+}
+
