@@ -87,3 +87,53 @@ form button:hover {
     justify-content: center;
 }
 
+.div-footer {
+    position: fixed;
+    margin-bottom: auto;
+}
+
+.item {
+    font-family: 'Bebas Neue';
+    color: white;    
+}
+
+.container .row #det {
+    margin-top: 30px;
+    border: 2px solid black;
+
+}
+
+.container .row .img-responsive {
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+.footer_busca {
+    color: #f2f2f2;
+    background-color: #0264af;
+    padding: 0.7rem;
+    margin: auto auto 0 auto;
+}
+
+@media (max-width:600px){
+    html{
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    footer{
+        max-height: 7vh;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-height:1000px){
+    footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+}
+
+

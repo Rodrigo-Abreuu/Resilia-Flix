@@ -52,7 +52,7 @@ function mostraDetalheFilme() {
                 <h3><strong>${filme.Title}</strong></h3>
             </div>
             <div class="col-md-6">
-                <div class="well clearfix">
+                <div class="well clearfix" id="det>
                 <ul class="list-group">
                     <li class="list-group-item"><strong>Gênero: </strong>${filme.Genre}</li>
                     <li class="list-group-item"><strong>Lançamento: </strong>${filme.Released}</li>
@@ -61,12 +61,10 @@ function mostraDetalheFilme() {
                     <li class="list-group-item"><strong>Prêmios: </strong>${filme.Awards}</li>
                     <li class="list-group-item"><strong>Atores: </strong>${filme.Actors}</li>
                 </ul>
-                <h3>Descrição</h3>
+                <h4>Descrição</h4>
                 ${filme.Plot}
                 <hr>
                 <a href="http://imdb.com/title/${filme.imdbID}" target="_blank" class="btn btn-sucess" pull-left>Ver no IMDB</a>
-                
-
                 </div>
             </div>
         `;
