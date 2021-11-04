@@ -12,19 +12,6 @@ body{
   position: relative;
 }
 
-.container-fluid, .navbar{
-  background: #0264af;
-}
-
-#header_figure{
-  margin: auto 0;
-}
-
-#header_logo{
-  max-height: auto;
-  max-width: 2rem;
-}
-
 main {
   margin: 0;
 }
