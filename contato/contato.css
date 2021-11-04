@@ -1,16 +1,138 @@
 img{
     width: 200px;
+    height: auto;
+    border-radius: 4rem;
 }
 
-#flex-container{
+body{
+    background-image: url(../static/imagens/fundo.jpg);
+}
+
+
+header {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    font-size: 1em;
+    border-radius: 0.3em;
+    border: none;
+    padding: 0.2em;
+    width: 30px;
+    margin-left: 2px;
+}
+
+
+
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    padding: 0.3em;
     
 }
 
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+    font-size: 1em;
+    border-radius: 0.3em;
+    border: none;
+    padding: 0.2em;
+    width: 30px;
+    margin-left: 2px;
+}
+
+form button:hover {
+    background-color: white;
+    color: #0dcaf0;
+}
+
+form input {
+    font-size: 1em;
+    border-radius: 0.3em;
+    border: none;
+    padding: 0.2em;
+    background-color: white;
+}
+
+h1{
+    color: rgb(66, 66, 66);
+    padding: 20px;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    border: 5px solid rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;;
+    background-color: rgba(245, 245, 245, 0.726);
+}
+
+
+h3{
+    color:whitesmoke
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+#flex-container-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
 
 #resiliaflix_logo{
     max-height: auto;
     max-width: 2rem;
 }
 
+
+.container-item{
+    border: 5px solid rgba(0, 0, 0, 0.192);
+    padding: 5px;
+    padding-top: 20px;
+    border-radius: 0.5rem;
+    background-color: #0dcaf08f;
+    width: 250px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive
+}
+
+.config-badges{
+    max-height: 25px;
+    max-width: 100px;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+
+.alinha-subtitulo{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+
+.footer-contato {
+    color: #f2f2f2;
+    background-color: #0dcaf0;
+    padding: 0.7rem;
+    margin: auto auto 0 auto;
+
+}
+
+#div-footer{
+    margin-top: 80px;
+}
