@@ -46,6 +46,11 @@ body{
     max-width: 2rem;
 }
 
+#header-font{
+    font-family: Bebas neue;
+    font-size: 1em;
+}
+
 .form-submit-button {
     background: #0dcaf0;
     color: white;
@@ -78,12 +83,9 @@ body{
     color: #f2f2f2;
     background-color: #0dcaf0;
     padding: 0.7rem;
-    margin: auto auto 0 auto;
+    font-size: small;
 
 }
 #div-footer{
-    flex-direction: row-reverse;
-    align-items: end;
-    justify-content: center;
-    margin-top: 222px;
+    margin-top: 230px;
 }

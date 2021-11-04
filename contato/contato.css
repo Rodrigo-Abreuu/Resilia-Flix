@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img{
     width: 200px;
     height: auto;
@@ -74,7 +78,8 @@ h1{
 
 
 h3{
-    color:whitesmoke
+    color:whitesmoke;
+    font-family: 'Bebas Neue';
 }
 
 
@@ -93,10 +98,11 @@ h3{
     
 }
 
-#resiliaflix_logo{
-    max-height: auto;
-    max-width: 2rem;
+#font-resilia-flix{
+    font-family: Bebas Neue;
 }
+
+
 
 
 .container-item{
@@ -130,6 +136,7 @@ h3{
     background-color: #0dcaf0;
     padding: 0.7rem;
     margin: auto auto 0 auto;
+    font-size: small;
 
 }
 
