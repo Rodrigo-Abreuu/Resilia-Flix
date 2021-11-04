@@ -9,11 +9,18 @@ header {
     padding: 1em;
 }
 
+body{
+    background-image: url(../static/imagens/fundo.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    position: relative;
+}
+
 form {
     border: 1px solid whitesmoke;
     border-radius: 0.5em;
-    padding: 0.3em;
-    
+    padding: 0.3em;    
 }
 
 form input {
@@ -24,7 +31,6 @@ form input {
     background-color: white;
 }
 
-
 form button {
     cursor: pointer;
     background: none;
@@ -34,10 +40,25 @@ form button {
     border: none;
     padding: 0.2em;
     width: 30px;
-    margin-left: 2px;
+    margin-left: 3px;
 }
+
 
 form button:hover {
     background-color: white;
     color: #0dcaf0;
+}
+
+#copy-area {
+    background-color: #0dcaf0;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
 }
