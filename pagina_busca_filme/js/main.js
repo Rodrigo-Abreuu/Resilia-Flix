@@ -52,7 +52,7 @@ function mostraDetalheFilme() {
                 <h3><strong>${filme.Title}</strong></h3>
             </div>
             <div class="col-md-5">
-                <div class="well clearfix" id="det>
+                <div class="detFilmes well clearfix" id="det>
                 <ul class="list-group">
                     <li class="list-group-item"><strong>Gênero: </strong>${filme.Genre}</li>
                     <li class="list-group-item"><strong>Lançamento: </strong>${filme.Released}</li>

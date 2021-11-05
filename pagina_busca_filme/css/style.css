@@ -97,14 +97,16 @@ form button:hover {
     color: white;    
 }
 
-.container .row #det {
+.container .row .detFilmes {
     margin-top: 30px;
     border: 2px solid black;
+    
 }
 
 .container .row .img-responsive {
     margin-top: 25px;
     border: 2px solid black;
+
 }
 
 .footer_busca {
