@@ -159,28 +159,25 @@ h3{
     text-align: center;
 }
 
-footer{
-    margin-top: 100px;
-}
+.footer {
+    color: #f2f2f2;
+    background-color: #0264af;
+    padding: 0.7rem;
+    margin: 5rem auto 0 auto;
+  }
 
 @media (max-width:600px){
-    html{
-      max-width: 100%;
-      padding: 0;
-      margin: 0;
-    }
-
     footer{
-        max-height: 7vh;
-        padding: 0.5rem;
+      max-height: 7vh;
+      padding: 0.5rem;
     }
 }
 
 @media (min-height:1000px){
     footer{
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
 }
 
