@@ -51,6 +51,10 @@ body{
     font-size: 1em;
 }
 
+form{
+    margin: 3rem auto 8rem auto;
+}
+
 .form-submit-button {
     background: #0dcaf0;
     color: white;
@@ -79,13 +83,23 @@ body{
 }
 
 
-.footer-esqueci-minha-senha {
+.footer {
     color: #f2f2f2;
-    background-color: #0dcaf0;
+    background-color: #0264af;
     padding: 0.7rem;
-    font-size: small;
+  }
 
+@media (max-width:600px){
+    footer{
+      max-height: 7vh;
+      padding: 0.5rem;
+    }
 }
-#div-footer{
-    margin-top: 230px;
+
+@media (min-height:1000px){
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
 }
