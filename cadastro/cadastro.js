@@ -26,4 +26,5 @@ cep.addEventListener("focusout",(e)=>{
         .then( data => showData(data))
     })
     .catch(e => console.log('Deu Erro: '+ e,message))
+
 })

@@ -111,7 +111,7 @@ main h1 {
   max-width: 4.3rem;
 }
 
-.botao_cadastro{
+.botao_cadastro {
   margin: 1.2rem auto .3rem auto;
   width: 98%;
   padding: .5rem;
@@ -121,6 +121,7 @@ main h1 {
   background-color: #0073cd;
   color: #f2f2f2;
 }
+
 
 .botao_cadastro:hover {
   background-color: #0264af;
