@@ -24,20 +24,20 @@
             <h1 class="text-center mb-3 pd-login">Login</h1> <!--Manter no centro?-->
 
             <div class="form-group pd-laterais">
-                <label for="usuario" class="text">E-mail*</label> <!--Verificar se deixa ou tira-->
-                <input [(ngModel)]='userLogin.email' class="form-control" type="text" name="username" id="usuario"
+                <label for="email" class="text">E-mail*</label> <!--Verificar se deixa ou tira-->
+                <input type="email" class="form-control" type="text" name="email" id="email"
                     placeholder="Digite seu e-mail" required="">
             </div>
             <div class="form-group pd-laterais">
                 <label for="senha" class="text">Senha*</label> <!--Verificar se deixa ou tira-->
-                <input [(ngModel)]='userLogin.senha' class="form-control" type="password" name="password" id="Senha"
+                <input class="form-control" type="password" name="senha" id="Senha"
                     placeholder="Sua Senha" required="">
 
             </div>
 
             <div class="d-flex justify-content-center mr-btn ">
-                <a href="https://rodrigo-abreuu.github.io/Resilia-Flix/pagina_busca_filme/">
-                <button type="submit" class="btn btn-secondary btn-block mr text-center" value="Entrar" onclick="Login(event)">Entrar</button></a>
+                
+                <a href="https://rodrigo-abreuu.github.io/Resilia-Flix/pagina_busca_filme/"  type="submit" class="btn btn-secondary btn-block mr text-center" value="acesso" onclick="logar()">Entrar</a>
 
             </div>
             <div class="mrCheckbox">
@@ -60,6 +60,7 @@
 
 </div>
 </header>
-<footer class="footer_login"> <p>Resilia-flix &copy</p></footer>
+<footer class="footer text-center text-lg-center">Resilia-flix &copy</footer>
+
 </body>
 </html>
