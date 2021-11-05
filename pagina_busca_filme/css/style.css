@@ -11,7 +11,7 @@ header {
 }
 
 body{
-    background: rgb(111, 212, 243);
+    background: rgb(131, 131, 131);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -57,21 +57,37 @@ form button:hover {
     color: #0dcaf0;
 }
 
+h3{
+    font-family: Bebas Neue;
+}
+
+
+#titulo-filmes{
+    padding: 10px;
+    color: rgb(99, 97, 97);
+    background-color: #0dcaf027;
+}
+#titulo-filme-detalhes{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .thumbnail {
-    height: 360px;
+    width: 360px;
     text-align: center;
     margin-top: 40px;
-    border: 3px solid rgba(46, 45, 51, 0.363);
+    border: 2px solid rgba(10, 10, 10, 0.363);
 }
 
 .thumbnail{
-    background: rgb(180, 231, 247);
+    background: rgba(155, 155, 155, 0.411);
     border-radius: 1em;
 }
 
 .thumbnail img {
     height: 230px;
-    margin-top: 10px;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 .header {
@@ -85,7 +101,14 @@ form button:hover {
 .pagina {
     text-align: center;
     justify-content: center;
+    background-color: rgba(204, 202, 80, 0.514);
 }
+
+#body-detalhes{
+    background-color: rgba(204, 202, 80, 0.514);
+}
+
+
 
 .div-footer {
     position: fixed;
@@ -94,17 +117,18 @@ form button:hover {
 
 .item {
     font-family: 'Bebas Neue';
-    color: white;    
+    color: white;
+    height: 57px;    
 }
 
 .container .row #det {
     margin-top: 30px;
-    border: 2px solid black;
 }
 
 .container .row .img-responsive {
     margin-top: 25px;
-    border: 2px solid black;
+    border: 2px solid rgba(117, 117, 117, 0.192);
+    border-radius: 0.15em;
 }
 
 .footer_busca {
@@ -112,6 +136,31 @@ form button:hover {
     background-color: #0264af;
     padding: 0.7rem;
     margin: auto auto 0 auto;
+}
+
+.config-img{
+    border: 2px solid rgba(109, 109, 109, 0.418);
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    border-radius: 0.15em;
+}
+
+.nome-filme{
+    padding: 20px;
+}
+
+.list-group{
+    padding-top: 40px;
+}
+
+.col-md-6{
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
 }
 
 @media (max-width:600px){
