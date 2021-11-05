@@ -1,3 +1,49 @@
 body {
     background: url(../static/imagens/Netflix.jpg);
 }
+
+.footer-style {
+    background: white;
+    margin-top: 90px;
+}
+
+#fotos {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.582);
+    border: none;
+    height: auto;
+}
+
+#cabecalho {
+    text-align: center;
+    color: rgb(228, 225, 79) ;
+    background: rgba(0, 0, 0, 0.582);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+@media (max-width:600px){
+    html{
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    footer{
+        max-height: 7vh;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-height:1000px){
+    footer{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+}
