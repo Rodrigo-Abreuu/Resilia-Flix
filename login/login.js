@@ -5,7 +5,7 @@ function Login(event) {
     var senha = document.getElementsByName('password')[0].value;
     senha = senha.toLowerCase();
   
-    if (usuario == "bcf" && senha == "bcf") {
+    if (usuario == "bcf" && senha == "123") {
       alert("dados corretos");
       window.location = "index.html";
     }else{
