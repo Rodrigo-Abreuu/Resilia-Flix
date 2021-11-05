@@ -8,11 +8,6 @@ img{
     border-radius: 4rem;
 }
 
-body{
-    background-image: url(../static/imagens/fundo.jpg);
-}
-
-
 header {
     display: flex;
     align-items: center;
@@ -20,68 +15,21 @@ header {
     padding: 1em;
 }
 
-form button {
-    cursor: pointer;
-    background: none;
-    color: whitesmoke;
-    font-size: 1em;
-    border-radius: 0.3em;
-    border: none;
-    padding: 0.2em;
-    width: 30px;
-    margin-left: 2px;
-}
-
-
-
-form {
-    border: 1px solid whitesmoke;
-    border-radius: 0.5em;
-    padding: 0.3em;
-    
-}
-
-form button {
-    cursor: pointer;
-    background: none;
-    color: whitesmoke;
-    font-size: 1em;
-    border-radius: 0.3em;
-    border: none;
-    padding: 0.2em;
-    width: 30px;
-    margin-left: 2px;
-}
-
-form button:hover {
-    background-color: white;
-    color: #0dcaf0;
-}
-
-form input {
-    font-size: 1em;
-    border-radius: 0.3em;
-    border: none;
-    padding: 0.2em;
-    background-color: white;
-}
 
 h1{
-    color: rgb(66, 66, 66);
+    color: rgb(90, 90, 90);
     padding: 20px;
     font-size: 3em;
     font-family: 'Bebas Neue', cursive;
     border: 5px solid rgba(0, 0, 0, 0.19);
     border-radius: 0.5rem;;
-    background-color: rgba(245, 245, 245, 0.726);
+    background-color: rgba(204, 202, 80, 0.514);
 }
-
 
 h3{
-    color:whitesmoke;
+    color:rgb(88, 88, 88);
     font-family: 'Bebas Neue';
 }
-
 
 
 .flex-container{
@@ -101,8 +49,6 @@ h3{
 #font-resilia-flix{
     font-family: Bebas Neue;
 }
-
-
 
 
 .container-item{

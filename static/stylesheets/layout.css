@@ -3,6 +3,10 @@
     padding:0px;
 }
 
+body{
+    background: rgba(204, 202, 80, 0.514);
+}
+
 #fotos{
     margin-top:1px;
     width:100%;

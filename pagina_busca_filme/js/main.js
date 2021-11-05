@@ -18,7 +18,7 @@ function buscarFilme(filmeBuscar) {
             <div class="col-sm-6 col-md-4" id="detalhe">
                 <div class="thumbnail">
                     <img src="${filmes[i].Poster}" class="img-thumbnail">
-                    <h4>${filmes[i].Title}</h4>
+                    <h4 class="nome-filme">${filmes[i].Title}</h4>
                     <p><a href="#" class="btn btn-primary" role="button" onclick="filmeDetalhes('${filmes[i].imdbID}')">Ver Detalhes</a></p>
                 </div>
             </div>
@@ -49,10 +49,10 @@ function mostraDetalheFilme() {
         var mostraDetalheFilme = `
             <div class="col-md-6">
                 <img src="${filme.Poster}" class="img-responsive">
-                <h3><strong>${filme.Title}</strong></h3>
+                <h3 id="titulo-filme-detalhes"><strong>${filme.Title}</strong></h3>
             </div>
             <div class="col-md-5">
-                <div class="detFilmes well clearfix" id="det>
+                <div class="well clearfix" id="det">
                 <ul class="list-group">
                     <li class="list-group-item"><strong>Gênero: </strong>${filme.Genre}</li>
                     <li class="list-group-item"><strong>Lançamento: </strong>${filme.Released}</li>
@@ -61,6 +61,7 @@ function mostraDetalheFilme() {
                     <li class="list-group-item"><strong>Prêmios: </strong>${filme.Awards}</li>
                     <li class="list-group-item"><strong>Atores: </strong>${filme.Actors}</li>
                 </ul>
+                <br>
                 <h4>Descrição</h4>
                 ${filme.Plot}
                 <hr>
