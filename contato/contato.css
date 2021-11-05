@@ -76,8 +76,24 @@ h3{
     
 }
 
+.footer {
+    color: #f2f2f2;
+    background-color: #0264af;
+    padding: 0.7rem;
+    margin: 5rem auto 0 auto;
+  }
 
+@media (max-width:600px){
+    footer{
+      max-height: 7vh;
+      padding: 0.5rem;
+    }
+}
 
-#div-footer{
-    margin-top: 80px;
+@media (min-height:1000px){
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
 }
