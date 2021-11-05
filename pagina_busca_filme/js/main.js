@@ -51,7 +51,7 @@ function mostraDetalheFilme() {
                 <img src="${filme.Poster}" class="img-responsive">
                 <h3><strong>${filme.Title}</strong></h3>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="well clearfix" id="det>
                 <ul class="list-group">
                     <li class="list-group-item"><strong>Gênero: </strong>${filme.Genre}</li>
