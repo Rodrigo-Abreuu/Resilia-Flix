@@ -97,3 +97,16 @@ h3{
         width: 100%;
         }
 }
+
+.footer-contato{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0073cd;
+    box-shadow: 0 -1px 2px 1px lightblue;
+    padding: 0.7rem;
+    margin: auto auto 0 auto;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 140px;
+}
+
