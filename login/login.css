@@ -1,31 +1,33 @@
 :root{
-    /*Para utilizar variaves no site*/
+
     --vermelho: #E50914;
     --preta: #141414;
 }
-/* *{
-    font-family: 'Bebas Neue';
-} */
-header .logo{
-    margin-left: 5px;
+
+main{
+    height: 100%;
+}
+
+main .logo{
     color:var(--preto);
     font-family: 'Arial Black',Times;
     font-size: 40px;
 }
 
+
 .im-logo{
     height: 48px;
     width: 48px;
 }
-.img-bg {
+.container-fluid{
     background-image: url(../static/imagens/Resiliaflix.png);
-    
-    min-height: 995px;
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+
 }
+
 .bg-box {
     background: hsl(0deg 10% 6% / 35%);
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
@@ -84,12 +86,12 @@ input :checked{
     margin: 0px 0px 0px 80px;
 }
 
-  
 
 .footer {
     color: #f2f2f2;
     background-color: #0264af;
     padding: 0.7rem;
+    margin: auto auto 0 auto;
   }
 
 @media (max-width:600px){
@@ -106,7 +108,6 @@ input :checked{
         width: 100%;
         }
 }
-
 
 
 
