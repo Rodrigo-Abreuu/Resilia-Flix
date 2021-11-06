@@ -1,16 +1,12 @@
 function logar() {
-    // event.preventDefault();
-    var email = document.getElementsByName("email");
-    // usuario = usuario.toLowerCase();
-    var senha = document.getElementsByName("senha");
-    // senha = senha.toLowerCase();
-  
-    if (email.value == "admin@admin.com" && senha.value == "admin") {
-      // alert("dados corretos");
+    var email = document.getElementsByName("email").values;
+
+    var senha = document.getElementsByName("senha").values;
+    if (this.email.value== "admin@admin.com" && this.senha.value == "admin") {
         localStorage.setItem("acesso", true);
 
 
-      window.location.href = "index.html";
+      window.location.href = "https://rodrigo-abreuu.github.io/Resilia-Flix/pagina_busca_filme/";
     }else{
       alert("Dados incorretos, tente novamente");
     }
