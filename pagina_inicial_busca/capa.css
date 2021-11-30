@@ -16,7 +16,7 @@ body {
 
 #cabecalho {
     text-align: center;
-    color: rgb(228, 225, 79) ;
+    color: gray ;
     background: rgba(0, 0, 0, 0.582);
     margin-top: 10px;
     display: flex;
