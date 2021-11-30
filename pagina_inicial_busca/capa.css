@@ -17,7 +17,7 @@ body {
 #cabecalho {
     text-align: center;
     color: gray ;
-    background: rgba(0, 0, 0, 0.582);
+    background: rgba(0, 0, 0, 0.52);
     margin-top: 10px;
     display: flex;
     justify-content: center;
