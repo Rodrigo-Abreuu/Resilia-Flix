@@ -9,15 +9,17 @@ body {
 
 #fotos {
     padding: 10px;
-    background: rgba(0, 0, 0, 0.582);
+    background: rgb(255 255 255 / 29%);;
     border: none;
     height: auto;
+    border-radius: 1em;
 }
 
 #cabecalho {
     text-align: center;
-    color: gray ;
-    background: rgba(0, 0, 0, 0.52);
+    color:  #0f2c32;
+ ;
+    background: rgb(255 255 255 / 47%);
     margin-top: 10px;
     display: flex;
     justify-content: center;
