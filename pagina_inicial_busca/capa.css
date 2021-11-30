@@ -21,6 +21,7 @@ body {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    border-radius: 3em;
 }
 
 .footer {
